@@ -1,0 +1,25 @@
+{
+  "name": "applicationmailer",
+  "version": "1.0.0",
+  "description": "tool to send bulk applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ad"
+  },
+  "keywords": [
+    "email",
+    "application",
+    "job",
+    "internship"
+  ],
+  "author": "Sayak Ghosh",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.2.0",
+    "nodemailer": "^7.0.3"
+  }
+}
