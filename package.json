@@ -1,14 +1,14 @@
 {
-  "name": "applicationmailer",
-  "version": "1.0.0",
+  "name": "application-mailer",
+  "version": "1.0.3",
   "description": "tool to send bulk applications",
-  "main": "index.js",
+  "main": "application-mailer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/SayakGH/ApplicatioonMailer.git"
+    "url": "https://github.com/SayakGH/Application-Mailer.git"
   },
   "keywords": [
     "email",

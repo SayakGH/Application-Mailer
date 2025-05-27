@@ -18,7 +18,7 @@ This Node.js project automates the process of sending personalized job applicati
 
 ```bash
 # Clone the repository
-git clonehttps://github.com/SayakGH/ApplicatioonMailer.git
+git clonehttps://github.com/SayakGH/Application-Mailer.git
 cd ApplicationMailer
 
 # Install dependencies
@@ -30,13 +30,12 @@ npm install application-mailer
 ## 🚀 Demo
 
 ```bash
-const Mailer = require("./ApplicationMailer");
+const Mailer = require("application-mailer");
 
 const mailer = new Mailer("youremail@gmail.com", "your-app-password");
 
 mailer.addInfo("./resume.pdf", "./coverLetter.txt");
 mailer.addSubject("Application for Software Developer");
-# mailer.addCSV( file location, header present, header name);
 mailer.addCSV("./emails.csv", true, "Email");
 
 
